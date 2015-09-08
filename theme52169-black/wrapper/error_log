@@ -1,0 +1,2 @@
+[05-Feb-2015 12:00:47 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/wrapper/wrapper-header.php on line 5
+[05-Feb-2015 12:00:51 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/wrapper/wrapper-footer.php on line 7

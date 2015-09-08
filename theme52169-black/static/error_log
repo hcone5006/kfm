@@ -1,0 +1,2 @@
+[05-Feb-2015 12:01:02 America/Chicago] PHP Fatal error:  Call to undefined function apply_filters() in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/static/static-footer-text.php on line 3
+[05-Feb-2015 12:01:21 America/Chicago] PHP Fatal error:  Call to undefined function of_get_option() in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/static/static-social-networks.php on line 6

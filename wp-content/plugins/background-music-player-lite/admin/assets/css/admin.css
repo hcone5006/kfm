@@ -1,0 +1,19 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.bmplayer-right-sidebar-admin .inside .cw-admin-footer{font-size:0.9em;overflow:hidden;border-top:1px solid #ccc;padding-top:5px;}
+.bmplayer-right-sidebar-admin .inside .cw-admin-footer .left-col{float:left;margin-right:20px;}
+.bmplayer-right-sidebar-admin .inside .cw-admin-footer .right-col{float:left;text-align:center;}
+
+.bmplayer-hidden{display:none;}
+.bmplayer-visible{display:block;}
+
+.bmplayer_options_page{}
+
+.bmplayer_options_page .radio-image-wrapper{overflow:hidden;}
+.bmplayer_options_page .radio-image-wrapper .radio-image-item{float:left;margin-right:2em;}
+.bmplayer_options_page .radio-image-wrapper .radio-image-item img{border:1px solid #c3c3c3;}
+.bmplayer_options_page .radio-image-wrapper .radio-image-item:last-child{margin-right:0}
+
+.bmplayer_options_page .wp-picker-container{float:left;}
+
+.bmplayer-page-metabox-inner{max-height:250px;overflow-y:scroll}

@@ -1,0 +1,2 @@
+[05-Feb-2015 12:05:18 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/includes/widgets/my-recent-posts.php on line 3
+[05-Feb-2015 12:08:48 America/Chicago] PHP Fatal error:  Class 'WP_Widget_Recent_Comments' not found in /home2/djselect/public_html/kfm/wp-content/themes/theme52169/includes/widgets/my-comment-widget.php on line 2

@@ -1,0 +1,3 @@
+[05-Feb-2015 12:01:10 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/djselect/public_html/kfm/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7
+[05-Feb-2015 12:01:14 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/djselect/public_html/kfm/wp-content/themes/CherryFramework/admin/options-framework.php on line 28
+[05-Feb-2015 12:01:25 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home2/djselect/public_html/kfm/wp-content/themes/CherryFramework/admin/options-medialibrary-uploader.php on line 9

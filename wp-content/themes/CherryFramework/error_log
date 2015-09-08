@@ -1,0 +1,2 @@
+[05-Feb-2015 00:00:42 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/djselect/public_html/kfm/wp-content/themes/CherryFramework/index.php on line 2
+[08-Feb-2015 05:42:51 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/djselect/public_html/kfm/wp-content/themes/CherryFramework/index.php on line 2

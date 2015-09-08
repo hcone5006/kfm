@@ -1,0 +1,109 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+
+.bmplayer-container{font-size:14px;background:#fff;color:#000;position:absolute;padding:10px;z-index:101;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.bmplayer-container .bmplayer-container-content{font-size:16px;overflow:hidden;}
+.bmplayer-container i{cursor:pointer;}
+.bmplayer-container i:hover{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+.bmplayer-container .bmplayer-container-content .bmplayer-controls-primary{float:left;}
+.bmplayer-container .bmplayer-container-content .bmplayer-controls-primary .bmplayer-btn-play{width:1em;font-size:2em;}
+.bmplayer-container .bmplayer-container-content .bmplayer-controls-secondary{font-size:0.8em;float:left;}
+.bmplayer-container .bmplayer-container-content .bmplayer-controls-secondary .bmplayer-btn-prev{}
+.bmplayer-container .bmplayer-container-content .bmplayer-controls-secondary .bmplayer-btn-next{}
+
+.bm-player-comment{font-size: 11px; font-weight: lighter; margin: 107px 10px; line-height: 13px; color: #9E9FA2;}
+
+/* Left Side Style*/
+.bmplayer-container.bmplayer-style-1{
+-moz-border-radius-topright: 90px;
+-webkit-border-top-right-radius: 90px;
+border-top-right-radius: 90px;
+-moz-border-radius-bottomright: 90px;
+-webkit-border-bottom-right-radius: 90px;
+border-bottom-right-radius: 90px;
+
+left:0px;
+top:100px;
+
+width:70px;
+height:100px;
+overflow:hidden;
+} 
+
+.bmplayer-container.bmplayer-style-1 .bmplayer-container-content{width:50px;height:80px;position:relative;}
+.bmplayer-container.bmplayer-style-1 .bmplayer-container-content .bmplayer-controls-primary{position:absolute;top:20px;left:5px;}
+.bmplayer-container.bmplayer-style-1 .bmplayer-container-content .bmplayer-controls-secondary{position:absolute;bottom:5px;left:5px;}
+
+/* Right Side Style*/
+.bmplayer-container.bmplayer-style-2{
+-moz-border-radius-topleft: 90px;
+-webkit-border-top-left-radius: 90px;
+ border-top-left-radius: 90px;
+-moz-border-radius-bottomleft: 90px;
+-webkit-border-bottom-left-radius: 90px;
+border-bottom-left-radius: 90px;
+
+right:0px;
+top:100px;
+
+width:70px;
+height:100px;
+overflow:hidden;
+} 
+
+.bmplayer-container.bmplayer-style-2 .bmplayer-container-content{width:50px;height:80px;position:relative;}
+.bmplayer-container.bmplayer-style-2 .bmplayer-container-content .bmplayer-controls-primary{position:absolute;top:20px;left:19px;}
+.bmplayer-container.bmplayer-style-2 .bmplayer-container-content .bmplayer-controls-secondary{position:absolute;bottom:5px;left:19px;}
+
+/* Basic Box Style*/
+.bmplayer-container.bmplayer-style-3{
+right:10px;
+top:100px;
+
+width:120px;
+height:50px;
+overflow:hidden;
+} 
+
+.bmplayer-container.bmplayer-style-3 .bmplayer-container-content{width:100px;height:30px;position:relative;}
+.bmplayer-container.bmplayer-style-3 .bmplayer-container-content .bmplayer-controls-primary{position:absolute;top:0px;left:0px;}
+.bmplayer-container.bmplayer-style-3 .bmplayer-container-content .bmplayer-controls-secondary{position:absolute;bottom:0px;right:0px;}
+
+/* Branded Circle Style*/
+.bmplayer-container.bmplayer-style-4{
+position:fixed;
+-webkit-border-radius: 90px;
+-moz-border-radius: 90px;
+border-radius: 90px;
+
+right:10px;
+top:100px;
+
+width:100px;
+height:100px;
+overflow:hidden;
+} 
+.bmplayer-container.bmplayer-style-4 .bmplayer-container-content{width:80px;height:80px;position:relative;}
+.bmplayer-container.bmplayer-style-4 .bmplayer-container-content .bmplayer-controls-primary{position:absolute;top:20px;left:25px;}
+.bmplayer-container.bmplayer-style-4 .bmplayer-container-content .bmplayer-controls-secondary{position:absolute;bottom:5px;right:10px;}
+
+/* Fix player buttons for IE7 */
+*:first-child+html .fa.fa-play{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04b;');}
+*:first-child+html .fa.fa-pause{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04c;');}
+*:first-child+html .fa.fa-backward{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04a;');}
+*:first-child+html .fa.fa-forward{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04e;');}
+
+
+
